@@ -1,5 +1,5 @@
 # DollarCarthageApp
-Sample app showing how to import and use Dollar library in an iOS App using Carthage
+Sample app showing how to import and use [Dollar](https://github.com/ankurp/Dollar.swift) library in an iOS App using Carthage
 
 ## Setup
 
