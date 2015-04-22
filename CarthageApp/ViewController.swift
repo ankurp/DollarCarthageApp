@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        println($.find([1, 2, 3], {$0 == 2}))
+        println($.find([1, 2, 3]) {$0 == 2})
     }
 
     override func didReceiveMemoryWarning() {
