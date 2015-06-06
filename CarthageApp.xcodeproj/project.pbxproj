@@ -13,8 +13,6 @@
 		92FA7BA61A997E4400ED6952 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FA7BA51A997E4400ED6952 /* Images.xcassets */; };
 		92FA7BA91A997E4400ED6952 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FA7BA71A997E4400ED6952 /* LaunchScreen.xib */; };
 		92FA7BB51A997E4400ED6952 /* CarthageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FA7BB41A997E4400ED6952 /* CarthageAppTests.swift */; };
-		92FA7BC01A9981B900ED6952 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FA7BBE1A9981B900ED6952 /* Cent.framework */; };
-		92FA7BC11A9981B900ED6952 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FA7BBF1A9981B900ED6952 /* Dollar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +36,6 @@
 		92FA7BAE1A997E4400ED6952 /* CarthageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FA7BB31A997E4400ED6952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FA7BB41A997E4400ED6952 /* CarthageAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageAppTests.swift; sourceTree = "<group>"; };
-		92FA7BBE1A9981B900ED6952 /* Cent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cent.framework; path = Carthage/Build/iOS/Cent.framework; sourceTree = "<group>"; };
-		92FA7BBF1A9981B900ED6952 /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FA7BC01A9981B900ED6952 /* Cent.framework in Frameworks */,
-				92FA7BC11A9981B900ED6952 /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +59,6 @@
 		92FA7B901A997E4400ED6952 = {
 			isa = PBXGroup;
 			children = (
-				92FA7BBE1A9981B900ED6952 /* Cent.framework */,
-				92FA7BBF1A9981B900ED6952 /* Dollar.framework */,
 				92FA7B9B1A997E4400ED6952 /* CarthageApp */,
 				92FA7BB11A997E4400ED6952 /* CarthageAppTests */,
 				92FA7B9A1A997E4400ED6952 /* Products */,
