@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cent
 import Dollar
 
 class ViewController: UIViewController {
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        println($.find([1, 2, 3], callback: {$0 == 2}))
+        print($.find([1, 2, 3], callback: {$0 == 2}))
     }
 
     override func didReceiveMemoryWarning() {
