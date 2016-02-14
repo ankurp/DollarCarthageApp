@@ -1,1 +1,2 @@
-github "ankurp/Dollar.swift" ~> 4.0.1
+github "ankurp/Dollar" ~> 5.0.0
+github "ankurp/Cent" ~> 5.0.0

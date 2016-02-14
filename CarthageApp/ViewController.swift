@@ -7,16 +7,18 @@
 //
 
 import UIKit
-import Cent
 import Dollar
+import Cent
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mapLabel: UILabel!
+    @IBOutlet weak var kebabCaseLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        print($.find([1, 2, 3], callback: {$0 == 2}))
+        mapLabel.text = ($.map([1, 2, 3]) { $0 * 10 }).description
+        kebabCaseLabel.text = "Hello World".kebabCase
     }
 
     override func didReceiveMemoryWarning() {

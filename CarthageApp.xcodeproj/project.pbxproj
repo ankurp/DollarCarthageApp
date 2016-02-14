@@ -216,8 +216,8 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)//Carthage/Build/iOS/Dollar.framework",
-				"$(SRCROOT)//Carthage/Build/iOS/Cent.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Dollar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cent.framework",
 			);
 			outputPaths = (
 			);
